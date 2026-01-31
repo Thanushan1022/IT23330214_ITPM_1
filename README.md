@@ -43,6 +43,7 @@ playwright-project/                  # (or your repo name)
 ├── playwright.config.js             # Playwright configuration
 └── README.md
 
+```
 ## Installation
 
 ### Prerequisites
@@ -55,7 +56,7 @@ playwright-project/                  # (or your repo name)
 ```bash
 git clone https://github.com/Thanushan1022/IT23330214_ITPM_1.git
 cd ITPM_Assignment01
-```
+
 
 2. Install dependencies:
 ```bash
