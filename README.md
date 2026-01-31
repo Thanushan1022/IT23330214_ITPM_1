@@ -6,7 +6,7 @@ This is a Playwright-based test automation project for testing a **Thanglish to 
 
 ## Features
 
-- **10 Positive Functional Tests (Pos_Fun)**: Tests covering various Tamil language scenarios including greetings, questions, commands, negative forms, tenses, mixed English, numbers/time, places, and formatting.
+- **24 Positive Functional Tests (Pos_Fun)**: Tests covering various Tamil language scenarios including greetings, questions, commands, negative forms, tenses, mixed English, numbers/time, places, and formatting.
 - **10 Negative Functional Tests (Neg_Fun)**: Tests that validate expected failures, demonstrating system robustness and known limitations.
 - **Page Title Validation**: Ensures the website loads correctly with the expected title.
 
@@ -30,17 +30,18 @@ This is a Playwright-based test automation project for testing a **Thanglish to 
 
 ## Project Structure
 
-```
-playwrite/
+```text
+playwright-project/                  # (or your repo name)
 ├── tests/
-│   ├── example.spec.js              # Example test file
-│   └── ThanglishToTamil.spec.js     # Main test suite
-├── playwright.config.js              # Playwright configuration
-├── package.json                      # Dependencies and scripts
-├── playwright-report/               # Test reports
-├── test-results/                    # Test execution results
-└── README.md                        # This file
-```
+│   └── Thanglish-To-Tamil.spec.js   # Main test suite (Tanglish → Tamil automation)
+├── node_modules/                    # (auto-generated - not committed)
+├── playwright-report/               # HTML reports (after run)
+├── test-results/                    # Trace files, screenshots, videos (after run)
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── playwright.config.js             # Playwright configuration
+└── README.md
 
 ## Installation
 
@@ -111,10 +112,3 @@ To add new tests:
 3. Run tests to validate
 4. Update this README if adding new test categories
 
-## License
-
-This project is part of an ITPM assignment.
-
-## Contact
-
-For questions or issues, please reach out to the project maintainer.
